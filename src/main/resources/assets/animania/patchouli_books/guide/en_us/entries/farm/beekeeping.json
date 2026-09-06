@@ -1,0 +1,15 @@
+{
+	"name": "patchouli.animania.entry.beekeeping.name",
+	"icon": "animania:block_hive",
+	"category": "animania:farm",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "patchouli.animania.entry.beekeeping.page1"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "patchouli.animania.entry.beekeeping.page2"
+		}
+	]
+}

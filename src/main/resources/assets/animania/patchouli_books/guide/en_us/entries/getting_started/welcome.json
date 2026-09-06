@@ -1,0 +1,19 @@
+{
+	"name": "patchouli.animania.entry.welcome.name",
+	"icon": "animania:block_straw",
+	"category": "animania:getting_started",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "patchouli.animania.entry.welcome.page1"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "patchouli.animania.entry.welcome.page2"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "patchouli.animania.entry.welcome.page3"
+		}
+	]
+}

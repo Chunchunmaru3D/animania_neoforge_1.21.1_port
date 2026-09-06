@@ -1,0 +1,132 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_swamp",
+  "spawners": [
+    {
+      "type": "animania:peacock_charcoal",
+      "weight": 8,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:peafowl_charcoal",
+      "weight": 8,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:peachick_charcoal",
+      "weight": 4,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:peacock_opal",
+      "weight": 8,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:peafowl_opal",
+      "weight": 8,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:peachick_opal",
+      "weight": 4,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:peacock_peach",
+      "weight": 8,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:peafowl_peach",
+      "weight": 8,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:peachick_peach",
+      "weight": 4,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:peacock_purple",
+      "weight": 8,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:peafowl_purple",
+      "weight": 8,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:peachick_purple",
+      "weight": 4,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:peacock_taupe",
+      "weight": 8,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:peafowl_taupe",
+      "weight": 8,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:peachick_taupe",
+      "weight": 4,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:peacock_blue",
+      "weight": 8,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:peafowl_blue",
+      "weight": 8,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:peachick_blue",
+      "weight": 4,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:peacock_white",
+      "weight": 8,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:peafowl_white",
+      "weight": 8,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:peachick_white",
+      "weight": 4,
+      "minCount": 2,
+      "maxCount": 3
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_plains",
+  "spawners": [
+    {
+      "type": "animania:ewe_dorper",
+      "weight": 6,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:ram_dorper",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "animania:ewe_dorset",
+      "weight": 6,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:ram_dorset",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "animania:ewe_friesian",
+      "weight": 6,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:ram_friesian",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "animania:ewe_jacob",
+      "weight": 6,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:ram_jacob",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "animania:ewe_merino",
+      "weight": 6,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:ram_merino",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "animania:ewe_suffolk",
+      "weight": 6,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:ram_suffolk",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

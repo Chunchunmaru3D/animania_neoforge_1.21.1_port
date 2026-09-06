@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "animania:block/block_hive"
+    },
+    "facing=south": {
+      "model": "animania:block/block_hive",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "animania:block/block_hive",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "animania:block/block_hive",
+      "y": 270
+    }
+  }
+}

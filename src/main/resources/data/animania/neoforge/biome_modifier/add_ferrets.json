@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_savanna",
+  "spawners": [
+    {
+      "type": "animania:ferret_grey",
+      "weight": 8,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:ferret_white",
+      "weight": 8,
+      "minCount": 1,
+      "maxCount": 3
+    }
+  ]
+}

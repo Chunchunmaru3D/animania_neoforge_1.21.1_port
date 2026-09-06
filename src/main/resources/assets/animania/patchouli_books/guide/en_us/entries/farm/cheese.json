@@ -1,0 +1,15 @@
+{
+	"name": "patchouli.animania.entry.cheese.name",
+	"icon": "animania:cheese_mold",
+	"category": "animania:farm",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "patchouli.animania.entry.cheese.page1"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "patchouli.animania.entry.cheese.page2"
+		}
+	]
+}

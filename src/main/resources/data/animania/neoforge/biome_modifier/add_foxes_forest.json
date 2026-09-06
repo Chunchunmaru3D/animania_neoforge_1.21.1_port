@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_forest",
+  "spawners": [
+    {
+      "type": "animania:dog_female_fox",
+      "weight": 5,
+      "minCount": 2,
+      "maxCount": 2
+    }
+  ]
+}

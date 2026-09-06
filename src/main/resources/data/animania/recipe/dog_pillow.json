@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    "www",
+    "www"
+  ],
+  "key": { "w": { "tag": "minecraft:wool" } },
+  "result": { "id": "animania:dog_pillow", "count": 1 }
+}

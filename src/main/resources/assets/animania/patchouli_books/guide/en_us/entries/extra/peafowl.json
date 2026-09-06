@@ -1,0 +1,11 @@
+{
+	"name": "patchouli.animania.entry.peafowl.name",
+	"icon": "animania:peacock_blue_spawn_egg",
+	"category": "animania:extra",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "patchouli.animania.entry.peafowl.page1"
+		}
+	]
+}

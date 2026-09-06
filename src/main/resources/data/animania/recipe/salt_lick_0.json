@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "animania:salt" },
+    { "item": "animania:salt" },
+    { "item": "animania:salt" },
+    { "item": "animania:salt" },
+    { "item": "animania:salt" },
+    { "item": "animania:salt" },
+    { "item": "animania:salt" },
+    { "item": "animania:salt" },
+    { "item": "minecraft:water_bucket" }
+  ],
+  "result": { "id": "animania:block_salt_lick", "count": 1 }
+}

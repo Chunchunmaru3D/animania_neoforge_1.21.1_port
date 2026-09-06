@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "animania:block/litter_box" },
+    "facing=south": { "model": "animania:block/litter_box", "y": 180 },
+    "facing=east": { "model": "animania:block/litter_box", "y": 90 },
+    "facing=west": { "model": "animania:block/litter_box", "y": 270 }
+  }
+}

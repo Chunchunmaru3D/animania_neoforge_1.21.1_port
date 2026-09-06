@@ -1,0 +1,43 @@
+{
+  "variants": {
+    "content=empty": {
+      "model": "animania:block/cheese_mold_empty"
+    },
+    "content=milk_friesian": {
+	  "model": "animania:block/cheese_mold_milk_friesian"
+	},
+    "content=milk_holstein": {
+	  "model": "animania:block/cheese_mold_milk_holstein"
+	},
+    "content=milk_jersey": {
+	  "model": "animania:block/cheese_mold_milk_jersey"
+    },
+    "content=milk_sheep": {
+      "model": "animania:block/cheese_mold_milk_sheep"
+    },
+    "content=milk_goat": {
+      "model": "animania:block/cheese_mold_milk_goat"
+    },
+    "content=water": {
+      "model": "animania:block/cheese_mold_water"
+    },
+    "content=cheese_friesian": {
+	  "model": "animania:block/cheese_mold_cheese_friesian"
+	},
+    "content=cheese_holstein": {
+	  "model": "animania:block/cheese_mold_cheese_holstein"
+	},
+    "content=cheese_jersey": {
+	  "model": "animania:block/cheese_mold_cheese_jersey"
+    },
+    "content=cheese_sheep": {
+      "model": "animania:block/cheese_mold_cheese_sheep"
+    },
+    "content=cheese_goat": {
+      "model": "animania:block/cheese_mold_cheese_goat"
+    },
+    "content=salt": {
+      "model": "animania:block/cheese_mold_salt"
+    }
+  }
+}

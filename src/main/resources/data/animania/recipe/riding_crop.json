@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  l",
+    " s ",
+    "l  "
+  ],
+  "key": {
+    "l": { "item": "minecraft:leather" },
+    "s": { "item": "minecraft:stick" }
+  },
+  "result": { "id": "animania:riding_crop" }
+}

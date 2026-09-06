@@ -1,0 +1,1 @@
+{ "type": "minecraft:campfire_cooking", "category": "food", "ingredient": { "item": "animania:raw_frog_legs" }, "result": { "id": "animania:cooked_frog_legs" }, "experience": 0.3, "cookingtime": 600 }

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "minecraft:string" },
+    { "item": "minecraft:gold_nugget" }
+  ],
+  "result": { "id": "minecraft:name_tag", "count": 1 }
+}

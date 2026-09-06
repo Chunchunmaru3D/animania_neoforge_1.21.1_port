@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "www",
+    "w w",
+    "www"
+  ],
+  "key": { "w": { "tag": "minecraft:wool" } },
+  "result": { "id": "animania:cat_bed_2", "count": 1 }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    { "item": "animania:plain_omelette" },
+    { "item": "animania:cooked_prime_bacon" },
+    { "item": "animania:truffle" },
+    { "tag": "animania:cheese_wedges" }
+  ],
+  "result": { "id": "animania:super_omelette" }
+}

@@ -1,0 +1,4 @@
+{
+  "type": "minecraft:block",
+  "pools": [{ "rolls": 1, "conditions": [{ "condition": "minecraft:block_state_property", "block": "animania:cheese_holstein", "properties": { "bites": "0" } }], "entries": [{ "type": "minecraft:item", "name": "animania:cheese_holstein" }] }]
+}

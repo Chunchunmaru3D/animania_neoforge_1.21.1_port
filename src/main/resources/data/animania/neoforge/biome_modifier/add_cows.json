@@ -1,0 +1,90 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_plains",
+  "spawners": [
+    {
+      "type": "animania:cow_angus",
+      "weight": 6,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:bull_angus",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "animania:cow_friesian",
+      "weight": 6,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:bull_friesian",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "animania:cow_hereford",
+      "weight": 6,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:bull_hereford",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "animania:cow_highland",
+      "weight": 6,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:bull_highland",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "animania:cow_holstein",
+      "weight": 6,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:bull_holstein",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "animania:cow_jersey",
+      "weight": 6,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:bull_jersey",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "animania:cow_longhorn",
+      "weight": 6,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:bull_longhorn",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

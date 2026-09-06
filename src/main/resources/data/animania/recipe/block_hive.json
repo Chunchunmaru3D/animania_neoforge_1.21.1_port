@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ppp",
+    "php",
+    "ppp"
+  ],
+  "key": {
+    "p": {
+      "tag": "minecraft:planks"
+    },
+    "h": {
+      "item": "animania:block_wild_hive"
+    }
+  },
+  "result": {
+    "id": "animania:block_hive",
+    "count": 1
+  }
+}

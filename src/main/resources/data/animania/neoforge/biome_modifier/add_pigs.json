@@ -1,0 +1,78 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_forest",
+  "spawners": [
+    {
+      "type": "animania:sow_duroc",
+      "weight": 6,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:hog_duroc",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "animania:sow_hampshire",
+      "weight": 6,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:hog_hampshire",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "animania:sow_large_black",
+      "weight": 6,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:hog_large_black",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "animania:sow_large_white",
+      "weight": 6,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:hog_large_white",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "animania:sow_old_spot",
+      "weight": 6,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:hog_old_spot",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "animania:sow_yorkshire",
+      "weight": 6,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:hog_yorkshire",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

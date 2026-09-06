@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "animania:block/cat_tower" },
+    "facing=south": { "model": "animania:block/cat_tower", "y": 180 },
+    "facing=east": { "model": "animania:block/cat_tower", "y": 90 },
+    "facing=west": { "model": "animania:block/cat_tower", "y": 270 }
+  }
+}

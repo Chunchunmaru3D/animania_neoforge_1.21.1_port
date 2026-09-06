@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:builtin/entity",
+  "textures": {
+    "particle": "animania:block/block_trough"
+  }
+}

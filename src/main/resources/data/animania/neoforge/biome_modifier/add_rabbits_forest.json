@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_forest",
+  "spawners": [
+    {
+      "type": "animania:rabbit_doe_cottontail",
+      "weight": 8,
+      "minCount": 2,
+      "maxCount": 2
+    },
+    {
+      "type": "animania:rabbit_doe_new_zealand",
+      "weight": 8,
+      "minCount": 2,
+      "maxCount": 2
+    }
+  ]
+}

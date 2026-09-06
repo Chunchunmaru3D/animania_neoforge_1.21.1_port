@@ -1,0 +1,866 @@
+{
+  "combo": {
+    "category": "player",
+    "sounds": [
+      "animania:combo"
+    ]
+  },
+  "hitch": {
+    "category": "player",
+    "sounds": [
+      "animania:props/hitch"
+    ]
+  },
+  "unhitch": {
+    "category": "player",
+    "sounds": [
+      "animania:props/unhitch"
+    ]
+  },
+  "hamsterdeath": {
+    "category": "neutral",
+    "sounds": [
+      "animania:hamsters/deathsound"
+    ]
+  },
+  "hamstereat1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:hamsters/eatsound1"
+    ]
+  },
+  "hamstereat2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:hamsters/eatsound2"
+    ]
+  },
+  "hamsterhurt1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:hamsters/hurtsound1"
+    ]
+  },
+  "hamsterliving1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:hamsters/livingsound1"
+    ]
+  },
+  "hamsterliving2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:hamsters/livingsound2"
+    ]
+  },
+  "hamsterliving3": {
+    "category": "neutral",
+    "sounds": [
+      "animania:hamsters/livingsound3"
+    ]
+  },
+  "cluck1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:chickens/cluck1"
+    ]
+  },
+  "cluck2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:chickens/cluck2"
+    ]
+  },
+  "cluck3": {
+    "category": "neutral",
+    "sounds": [
+      "animania:chickens/cluck3"
+    ]
+  },
+  "cluck4": {
+    "category": "neutral",
+    "sounds": [
+      "animania:chickens/cluck4"
+    ]
+  },
+  "cluck5": {
+    "category": "neutral",
+    "sounds": [
+      "animania:chickens/cluck5"
+    ]
+  },
+  "cluck6": {
+    "category": "neutral",
+    "sounds": [
+      "animania:chickens/cluck6"
+    ]
+  },
+  "crow1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:chickens/crow1"
+    ]
+  },
+  "crow2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:chickens/crow2"
+    ]
+  },
+  "crow3": {
+    "category": "neutral",
+    "sounds": [
+      "animania:chickens/crow3"
+    ]
+  },
+  "hurt1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:chickens/hurt1"
+    ]
+  },
+  "death1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:chickens/death1"
+    ]
+  },
+  "hurt2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:chickens/hurt2"
+    ]
+  },
+  "death2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:chickens/death2"
+    ]
+  },
+  "moo1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:cows/moo1"
+    ]
+  },
+  "moo3": {
+    "category": "neutral",
+    "sounds": [
+      "animania:cows/moo3"
+    ]
+  },
+  "moo4": {
+    "category": "neutral",
+    "sounds": [
+      "animania:cows/moo4"
+    ]
+  },
+  "moo5": {
+    "category": "neutral",
+    "sounds": [
+      "animania:cows/moo5"
+    ]
+  },
+  "moo6": {
+    "category": "neutral",
+    "sounds": [
+      "animania:cows/moo6"
+    ]
+  },
+  "moo7": {
+    "category": "neutral",
+    "sounds": [
+      "animania:cows/moo7"
+    ]
+  },
+  "moo8": {
+    "category": "neutral",
+    "sounds": [
+      "animania:cows/moo8"
+    ]
+  },
+  "cowhurt1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:cows/cowhurt1"
+    ]
+  },
+  "cowhurt2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:cows/cowhurt2"
+    ]
+  },
+  "cowdeath1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:cows/cowdeath1"
+    ]
+  },
+  "cowdeath2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:cows/cowdeath2"
+    ]
+  },
+  "bullmoo1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:cows/bullmoo1"
+    ]
+  },
+  "bullmoo2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:cows/bullmoo2"
+    ]
+  },
+  "bullmoo3": {
+    "category": "neutral",
+    "sounds": [
+      "animania:cows/bullmoo3"
+    ]
+  },
+  "bullmoo4": {
+    "category": "neutral",
+    "sounds": [
+      "animania:cows/bullmoo4"
+    ]
+  },
+  "bullmoo5": {
+    "category": "neutral",
+    "sounds": [
+      "animania:cows/bullmoo5"
+    ]
+  },
+  "bullmoo6": {
+    "category": "neutral",
+    "sounds": [
+      "animania:cows/bullmoo6"
+    ]
+  },
+  "bullmoo7": {
+    "category": "neutral",
+    "sounds": [
+      "animania:cows/bullmoo7"
+    ]
+  },
+  "bullmoo8": {
+    "category": "neutral",
+    "sounds": [
+      "animania:cows/bullmoo8"
+    ]
+  },
+  "angrybull1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:cows/angrybull1"
+    ]
+  },
+  "moocalf1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:cows/moocalf1"
+    ]
+  },
+  "angrybull2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:cows/angrybull2"
+    ]
+  },
+  "moocalf2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:cows/moocalf2"
+    ]
+  },
+  "angrybull3": {
+    "category": "neutral",
+    "sounds": [
+      "animania:cows/angrybull3"
+    ]
+  },
+  "moocalf3": {
+    "category": "neutral",
+    "sounds": [
+      "animania:cows/moocalf3"
+    ]
+  },
+  "pig1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:pigs/pig1"
+    ]
+  },
+  "pig2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:pigs/pig2"
+    ]
+  },
+  "pig3": {
+    "category": "neutral",
+    "sounds": [
+      "animania:pigs/pig3"
+    ]
+  },
+  "pig4": {
+    "category": "neutral",
+    "sounds": [
+      "animania:pigs/pig4"
+    ]
+  },
+  "pig5": {
+    "category": "neutral",
+    "sounds": [
+      "animania:pigs/pig5"
+    ]
+  },
+  "pig6": {
+    "category": "neutral",
+    "sounds": [
+      "animania:pigs/pig6"
+    ]
+  },
+  "pig7": {
+    "category": "neutral",
+    "sounds": [
+      "animania:pigs/pig7"
+    ]
+  },
+  "pighurt1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:pigs/pighurt1"
+    ]
+  },
+  "pighurt2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:pigs/pighurt2"
+    ]
+  },
+  "hog1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:pigs/hog1"
+    ]
+  },
+  "hog2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:pigs/hog2"
+    ]
+  },
+  "hog3": {
+    "category": "neutral",
+    "sounds": [
+      "animania:pigs/hog3"
+    ]
+  },
+  "hog4": {
+    "category": "neutral",
+    "sounds": [
+      "animania:pigs/hog4"
+    ]
+  },
+  "hog5": {
+    "category": "neutral",
+    "sounds": [
+      "animania:pigs/hog5"
+    ]
+  },
+  "piglet1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:pigs/piglet1"
+    ]
+  },
+  "piglet2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:pigs/piglet2"
+    ]
+  },
+  "piglet3": {
+    "category": "neutral",
+    "sounds": [
+      "animania:pigs/piglet3"
+    ]
+  },
+  "piglethurt1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:pigs/piglethurt1"
+    ]
+  },
+  "piglethurt2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:pigs/piglethurt2"
+    ]
+  },
+  "piglethurt3": {
+    "category": "neutral",
+    "sounds": [
+      "animania:pigs/piglethurt3"
+    ]
+  },
+  "sheepliving1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:sheep/living1"
+    ]
+  },
+  "sheepliving2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:sheep/living2"
+    ]
+  },
+  "sheepliving3": {
+    "category": "neutral",
+    "sounds": [
+      "animania:sheep/living3"
+    ]
+  },
+  "sheepliving4": {
+    "category": "neutral",
+    "sounds": [
+      "animania:sheep/living4"
+    ]
+  },
+  "sheepliving5": {
+    "category": "neutral",
+    "sounds": [
+      "animania:sheep/living5"
+    ]
+  },
+  "sheepliving6": {
+    "category": "neutral",
+    "sounds": [
+      "animania:sheep/living6"
+    ]
+  },
+  "sheepliving7": {
+    "category": "neutral",
+    "sounds": [
+      "animania:sheep/living7"
+    ]
+  },
+  "sheephurt1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:sheep/hurt1"
+    ]
+  },
+  "lambliving1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:sheep/lambliving1"
+    ]
+  },
+  "lambliving2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:sheep/lambliving2"
+    ]
+  },
+  "goatliving1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:goats/living1"
+    ]
+  },
+  "goatliving2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:goats/living2"
+    ]
+  },
+  "goatliving3": {
+    "category": "neutral",
+    "sounds": [
+      "animania:goats/living3"
+    ]
+  },
+  "goatliving4": {
+    "category": "neutral",
+    "sounds": [
+      "animania:goats/living4"
+    ]
+  },
+  "goatliving5": {
+    "category": "neutral",
+    "sounds": [
+      "animania:goats/living5"
+    ]
+  },
+  "goathurt1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:goats/hurt1"
+    ]
+  },
+  "goathurt2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:goats/hurt2"
+    ]
+  },
+  "kidliving1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:goats/kidliving1"
+    ]
+  },
+  "kidliving2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:goats/kidliving2"
+    ]
+  },
+  "kidliving3": {
+    "category": "neutral",
+    "sounds": [
+      "animania:goats/kidliving3"
+    ]
+  },
+  "kidhurt1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:goats/kidhurt1"
+    ]
+  },
+  "kidhurt2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:goats/kidhurt2"
+    ]
+  },
+  "livinghorse1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:horses/livinghorse1"
+    ]
+  },
+  "livinghorse2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:horses/livinghorse2"
+    ]
+  },
+  "livinghorse3": {
+    "category": "neutral",
+    "sounds": [
+      "animania:horses/livinghorse3"
+    ]
+  },
+  "livinghorse4": {
+    "category": "neutral",
+    "sounds": [
+      "animania:horses/livinghorse4"
+    ]
+  },
+  "livinghorse5": {
+    "category": "neutral",
+    "sounds": [
+      "animania:horses/livinghorse5"
+    ]
+  },
+  "livinghorse6": {
+    "category": "neutral",
+    "sounds": [
+      "animania:horses/livinghorse6"
+    ]
+  },
+  "hurthorse1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:horses/hurthorse1"
+    ]
+  },
+  "hurthorse2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:horses/hurthorse2"
+    ]
+  },
+  "hurthorse3": {
+    "category": "neutral",
+    "sounds": [
+      "animania:horses/hurthorse3"
+    ]
+  },
+  "frogliving1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:amphibians/frogliving1"
+    ]
+  },
+  "frogliving2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:amphibians/frogliving2"
+    ]
+  },
+  "frogliving3": {
+    "category": "neutral",
+    "sounds": [
+      "animania:amphibians/frogliving3"
+    ]
+  },
+  "toadliving1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:amphibians/toadliving1"
+    ]
+  },
+  "toadliving2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:amphibians/toadliving2"
+    ]
+  },
+  "toadliving3": {
+    "category": "neutral",
+    "sounds": [
+      "animania:amphibians/toadliving3"
+    ]
+  },
+  "toadliving4": {
+    "category": "neutral",
+    "sounds": [
+      "animania:amphibians/toadliving4"
+    ]
+  },
+  "dartfrogliving1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:amphibians/dartfrogliving1"
+    ]
+  },
+  "dartfrogliving2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:amphibians/dartfrogliving2"
+    ]
+  },
+  "dartfrogliving3": {
+    "category": "neutral",
+    "sounds": [
+      "animania:amphibians/dartfrogliving3"
+    ]
+  },
+  "dartfrogliving4": {
+    "category": "neutral",
+    "sounds": [
+      "animania:amphibians/dartfrogliving4"
+    ]
+  },
+  "reeee": {
+    "category": "neutral",
+    "sounds": [
+      "animania:amphibians/reeee"
+    ]
+  },
+  "ooooohh": {
+    "category": "neutral",
+    "sounds": [
+      "animania:amphibians/ooooohh"
+    ]
+  },
+  "peacock1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:peacocks/peacock1"
+    ]
+  },
+  "peacock2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:peacocks/peacock2"
+    ]
+  },
+  "peacock3": {
+    "category": "neutral",
+    "sounds": [
+      "animania:peacocks/peacock3"
+    ]
+  },
+  "peacock4": {
+    "category": "neutral",
+    "sounds": [
+      "animania:peacocks/peacock4"
+    ]
+  },
+  "peacock5": {
+    "category": "neutral",
+    "sounds": [
+      "animania:peacocks/peacock5"
+    ]
+  },
+  "peacock6": {
+    "category": "neutral",
+    "sounds": [
+      "animania:peacocks/peacock6"
+    ]
+  },
+  "peacock7": {
+    "category": "neutral",
+    "sounds": [
+      "animania:peacocks/peacock7"
+    ]
+  },
+  "peacock8": {
+    "category": "neutral",
+    "sounds": [
+      "animania:peacocks/peacock8"
+    ]
+  },
+  "peacock9": {
+    "category": "neutral",
+    "sounds": [
+      "animania:peacocks/peacock9"
+    ]
+  },
+  "peacock10": {
+    "category": "neutral",
+    "sounds": [
+      "animania:peacocks/peacock10"
+    ]
+  },
+  "peacockhurt1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:peacocks/peacockhurt1"
+    ]
+  },
+  "peacockhurt2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:peacocks/peacockhurt2"
+    ]
+  },
+  "ferretliving1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:rodents/ferret_living1"
+    ]
+  },
+  "ferretliving2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:rodents/ferret_living2"
+    ]
+  },
+  "ferretliving3": {
+    "category": "neutral",
+    "sounds": [
+      "animania:rodents/ferret_living3"
+    ]
+  },
+  "ferretliving4": {
+    "category": "neutral",
+    "sounds": [
+      "animania:rodents/ferret_living4"
+    ]
+  },
+  "ferretliving5": {
+    "category": "neutral",
+    "sounds": [
+      "animania:rodents/ferret_living5"
+    ]
+  },
+  "ferretliving6": {
+    "category": "neutral",
+    "sounds": [
+      "animania:rodents/ferret_living6"
+    ]
+  },
+  "ferrethurt1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:rodents/ferret_hurt1"
+    ]
+  },
+  "hedgehogliving1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:rodents/hedgehog_living1"
+    ]
+  },
+  "hedgehogliving2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:rodents/hedgehog_living2"
+    ]
+  },
+  "hedgehogliving3": {
+    "category": "neutral",
+    "sounds": [
+      "animania:rodents/hedgehog_living3"
+    ]
+  },
+  "hedgehogliving4": {
+    "category": "neutral",
+    "sounds": [
+      "animania:rodents/hedgehog_living4"
+    ]
+  },
+  "hedgehogliving5": {
+    "category": "neutral",
+    "sounds": [
+      "animania:rodents/hedgehog_living5"
+    ]
+  },
+  "hedgehoghurt1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:rodents/hedgehog_hurt1"
+    ]
+  },
+  "hedgehoghurt2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:rodents/hedgehog_hurt2"
+    ]
+  },
+  "rabbitliving1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:rabbits/rabbit1"
+    ]
+  },
+  "rabbitliving2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:rabbits/rabbit2"
+    ]
+  },
+  "rabbitliving3": {
+    "category": "neutral",
+    "sounds": [
+      "animania:rabbits/rabbit3"
+    ]
+  },
+  "rabbitliving4": {
+    "category": "neutral",
+    "sounds": [
+      "animania:rabbits/rabbit4"
+    ]
+  },
+  "rabbithurt1": {
+    "category": "neutral",
+    "sounds": [
+      "animania:rabbits/rabbithurt1"
+    ]
+  },
+  "rabbithurt2": {
+    "category": "neutral",
+    "sounds": [
+      "animania:rabbits/rabbithurt2"
+    ]
+  }
+}

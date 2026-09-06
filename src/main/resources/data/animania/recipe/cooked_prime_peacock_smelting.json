@@ -1,0 +1,1 @@
+{ "type": "minecraft:smelting", "category": "food", "ingredient": { "item": "animania:raw_prime_peacock" }, "result": { "id": "animania:cooked_prime_peacock" }, "experience": 0.3, "cookingtime": 200 }

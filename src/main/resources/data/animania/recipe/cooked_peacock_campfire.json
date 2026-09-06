@@ -1,0 +1,1 @@
+{ "type": "minecraft:campfire_cooking", "category": "food", "ingredient": { "item": "animania:raw_peacock" }, "result": { "id": "animania:cooked_peacock" }, "experience": 0.3, "cookingtime": 600 }

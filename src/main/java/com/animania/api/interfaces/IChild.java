@@ -1,0 +1,50 @@
+package com.animania.api.interfaces;
+
+import java.util.Optional;
+import java.util.UUID;
+
+import net.minecraft.network.syncher.EntityDataAccessor;
+import net.minecraft.world.entity.Entity;
+
+public interface IChild extends IAnimaniaAnimal
+{
+	EntityDataAccessor<Optional<UUID>> getParentUniqueIdParam();
+
+	EntityDataAccessor<Float> getEntityAgeParam();
+
+	default UUID getParentUniqueId()
+	{
+		EntityDataAccessor<Optional<UUID>> param = getParentUniqueIdParam();
+		if (param != null)
+			return this.getUUIDFromDataManager(param);
+		return null;
+	}
+
+	default void setParentUniqueId(UUID id)
+	{
+		EntityDataAccessor<Optional<UUID>> param = getParentUniqueIdParam();
+		if (param != null)
+			((Entity) this).getEntityData().set(param, Optional.ofNullable(id));
+	}
+
+	default float getEntityAge()
+	{
+		EntityDataAccessor<Float> param = getEntityAgeParam();
+		if (param != null)
+			return this.getFloatFromDataManager(param);
+		return 0;
+	}
+
+	default void setEntityAge(float age)
+	{
+		EntityDataAccessor<Float> param = getEntityAgeParam();
+		if (param != null)
+			((Entity) this).getEntityData().set(param, age);
+	}
+
+	int getAgeTimer();
+
+	void setAgeTimer(int i);
+
+	float getSizeDividend();
+}

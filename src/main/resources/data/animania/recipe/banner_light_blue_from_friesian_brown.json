@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:crafting_shaped", "category": "misc", "pattern": ["www", "www", " s "],
+  "key": { "w": { "item": "animania:wool_friesian_2" }, "s": { "item": "minecraft:stick" } },
+  "result": { "id": "minecraft:light_blue_banner", "count": 1 }
+}

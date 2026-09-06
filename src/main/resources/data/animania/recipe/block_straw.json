@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "minecraft:wheat" }
+  ],
+  "result": {
+    "id": "animania:block_straw",
+    "count": 1
+  }
+}

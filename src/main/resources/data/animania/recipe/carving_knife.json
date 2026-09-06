@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "   ",
+    "ii ",
+    "s  "
+  ],
+  "key": {
+    "i": { "item": "minecraft:iron_ingot" },
+    "s": { "item": "minecraft:stick" }
+  },
+  "result": {
+    "id": "animania:carving_knife"
+  }
+}

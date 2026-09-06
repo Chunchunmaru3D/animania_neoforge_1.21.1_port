@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_savanna",
+  "spawners": [
+    {
+      "type": "animania:rabbit_doe_jack",
+      "weight": 8,
+      "minCount": 2,
+      "maxCount": 2
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:crafting_shapeless", "category": "misc",
+  "ingredients": [{ "item": "animania:wool_merino_natural" }],
+  "result": { "id": "minecraft:white_wool", "count": 1 }
+}

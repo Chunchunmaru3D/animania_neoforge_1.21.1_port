@@ -1,0 +1,39 @@
+package com.animania.addons.catsdogs.client.model.dogs;
+
+import java.util.HashMap;
+import java.util.Map;
+import net.minecraft.client.model.geom.PartPose;
+import net.minecraft.client.model.geom.builders.CubeListBuilder;
+import net.minecraft.client.model.geom.builders.LayerDefinition;
+import net.minecraft.client.model.geom.builders.MeshDefinition;
+import net.minecraft.client.model.geom.builders.PartDefinition;
+
+ 
+public final class ModelDogFox {
+	private ModelDogFox() {}
+	public static LayerDefinition createBodyLayer(){
+		MeshDefinition mesh=new MeshDefinition(); PartDefinition root=mesh.getRoot();
+		PartDefinition body=part(root,"body",34,45,-4,-4,-4.5F,8,8,9,0,11.5F,-4,0,.6F,-1.5F);
+		PartDefinition l1=part(body,"leg_l1",0,54,-1,-3,-1.5F,2,6,3,3.3F,.4F,-2,0,3,0); PartDefinition l2=part(l1,"leg_l2",11,54,-1,-3,-1,2,6,2,0,2.4F,1,-.01F,3,-.61F); part(l2,"toe_l",11,60,-1,-.5F,-.5F,2,1,1,0,-3,.61F,0,5.5F,-1.5F);
+		PartDefinition lower=part(body,"lower_body",30,25,-3,-3.5F,-6,6,7,12,0,-1,3.5F,0,.8F,5.9F); PartDefinition tail=part(lower,"tail",50,12,-1.5F,-2,-3.5F,3,4,7,0,-2.4F,5.3F,0,1,3.5F); PartDefinition tail2=part(tail,"tail2",66,22,-2,-2.5F,-5,4,5,10,0,-1.2F,2.8F,0,1.5F,4.6F); part(tail2,"tail3",64,8,-1.5F,-2,-2,3,4,4,0,-.5F,3.4F,0,.6F,3);
+		PartDefinition backR1=part(lower,"back_leg_r1",20,52,-1,-3.5F,-2,2,7,4,2.5F,-1.3F,2.4F,0,4,.5F); PartDefinition backR2=part(backR1,"back_leg_r2",0,43,-1,-4,-1,2,8,2,0,2,.5F,-.01F,3.5F,.7F); part(backR2,"back_toe_r",1,51,-1,-.5F,-.5F,2,1,1,0,-3.5F,-.7F,.01F,7,-.4F);
+		PartDefinition backL1=part(lower,"back_leg_l1",20,52,-1,-3.5F,-2,2,7,4,-2.5F,-1.3F,2.4F,0,4,.5F); part(backL1,"back_toe_l",1,51,-1,-.5F,-.5F,2,1,1,0,2,.5001F,.01F,7,-.4F); part(backL1,"back_leg_l2",0,43,-1,-4,-1,2,8,2,0,2,.5F,.01F,3.5F,.7F);
+		PartDefinition neck=part(body,"neck1",0,27,-2.5F,-3,-4.5F,5,6,9,0,-1,-3,0,1.2F,-3); PartDefinition head=part(neck,"head_base",0,16,-3.5F,-3,-2.5F,7,6,5,0,-.8F,-3,0,.49F,-1.8F); PartDefinition front=part(head,"head_front",0,8,-1.5F,-1,-2.5F,3,2,5,0,1.5F,-1,0,-.4F,-2.9F);
+		part(front,"nose",10,0,-.5F,-.5F,-.5F,1,1,1,0,-1,-1.4F,0,.6F,-.8F); part(front,"upper_jaw_detail",14,0,-1,-1,-2,2,2,4,0,-3.0969F,2.6519F,0,1,-3.4F); part(head,"jaw",29,11,-1,-.5F,-3,2,1,6,0,2.91F,-.5F,0,-.2F,-2.9F); part(head,"chops_r",38,0,-2,-1,-2.5F,4,2,5,-2,1.6101F,-1.5F,-2,.5F,-1.1F); part(head,"chops_l",50,0,-2,-1,-2.5F,4,2,5,2,1.6101F,-1.2F,2,.5F,-1.1F);
+		PartDefinition earL=part(head,"ear_l",4,4,-1.5F,-.5F,-1.5F,3,1,3,1.8F,-2.5F,.7F,.5F,-.6F,-1.7F); part(earL,"ear_l2",0,0,-1,-.5F,-1,2,1,2,0,.6F,-2,0,-.6F,0); PartDefinition earR=part(head,"ear_r",4,4,-1.5F,-.5F,-1.5F,3,1,3,-1.8F,-2.5F,.7F,-.5F,-.6F,-1.7F); part(earR,"ear_r2",0,0,-1,-.5F,-1,2,1,2,0,.6F,-2,0,-.6F,0);
+		PartDefinition r1=part(body,"leg_r1",0,54,-1,-3,-1.5F,2,6,3,-3.3F,.4F,-2,0,3,0); part(r1,"leg_r2",11,54,-1,-3,-1,2,6,2,0,2.4F,1,.12F,3,-.61F); part(r1,"toe_r",11,60,-1,-.5F,-.5F,2,1,1,0,2.4F,1,.12F,5.5F,-1.5F);
+		return LayerDefinition.create(mesh,128,64);
+	}
+	public static final Map<String,DogPartPose> BASELINE=poses(false),SLEEP_TARGET=poses(true);
+	public static final Map<String,Float> SIT_POSE_X=Map.of("body",-.10049954898833749F,"leg_l1",-.4374388517443468F,"lower_body",-.68513423385813F,"tail",.7665852593902014F,"tail2",.458307753610443F,"back_leg_l1",-.43039993887105366F,"back_leg_r1",-.4596010425861708F,"head_base",1.1523920358728F,"leg_r1",-.4434654736514832F);
+	public static final float SIT_BODY_Y=12F,SIT_BODY_Z=-5F,HEAD_TRACK_OFFSET=-.7F;
+	private static Map<String,DogPartPose> poses(boolean s){Map<String,DogPartPose> p=new HashMap<>();
+		put(p,"body",0,s?21:11.5F,s?-5:-4,s?.24093921257931322F:.03490658503988659F,0,0);put(p,"leg_l1",3.3F,s?0:.4F,-2,s?-1.5503759745465628F:0,s?-.3215908773139712F:0,s?.21734934240935785F:0);put(p,"leg_l2",0,s?2.5F:2.4F,1,0,s?-.36083809620356766F:0,s?.2121360439336508F:0);put(p,"toe_l",0,s?-3.5F:-3,s?.6F:.61F,0,0,0);
+		put(p,"lower_body",0,-1,s?6:3.5F,s?-.4014100199954278F:-.045553093477052F,s?.737762892122767F:0,s?-.18757402537033457F:0);put(p,"tail",0,s?-3:-2.4F,s?5:5.3F,s?-.19028626702793378F:-.8651597102135892F,s?.5352191777580771F:0,s?.15578110771600587F:0);put(p,"tail2",0,s?-1:-1.2F,s?3:2.8F,s?-.030538025922144784F:.22758918913080856F,s?.8290610652945904F:0,s?.2372164252848093F:0);put(p,"tail3",0,s?0:-.5F,s?3.3F:3.4F,s?.11862479327029861F:.3186971214141646F,0,0);
+		put(p,"back_leg_r1",s?2.5F:2.5F,s?-2:-1.3F,s?3:2.4F,s?-.9829519814306865F:0,s?.15209846299429786F:0,s?-.6296746515467583F:0);put(p,"back_leg_r2",0,s?2.5F:2,.5F,0,0,0);put(p,"back_toe_r",0,s?-3.5F:-3.5F,s?-.6999F:-.7F,0,0,0);put(p,"back_leg_l1",s?-2.5F:-2.5F,s?-2:-1.3F,s?3:2.4F,s?-1.1373455523913567F:0,s?-.004394739056521722F:0,s?.2506397525618977F:0);put(p,"back_leg_l2",0,s?2.5F:2,.5F,0,0,s?-.3993330781855546F:0);put(p,"back_toe_l",0,s?-3.5F:2,s?-.7F:.5001F,s?-0F:-1.7453292519943296E-6F,0,0);
+		put(p,"neck1",0,-1,s?-4:-3,s?-.3867108570351316F:-.6694891024432529F,0,s?.27705007480307586F:0);put(p,"head_base",0,s?-1.3F:-.8F,s?-5:-3,s?.5040039640861586F:.9358699795288874F,s?-.2476849101382713F:0,s?-.46416507858013595F:0);put(p,"head_front",0,s?1.2F:1.5F,s?-.5F:-1,s?-.17280330391070658F:-.12792390752492439F,0,0);put(p,"nose",0,-1,s?-2.5F:-1.4F,-.091106186954104F,0,0);put(p,"upper_jaw_detail",0,s?-2.9638F:-3.0969F,s?3.5615F:2.6519F,s?.2039696483635693F:.4820878646688657F,0,0);put(p,"jaw",0,s?2.5F:2.91F,s?-.5F:-.5F,s?-.2525770680316114F:-.20524722937602918F,0,0);
+		put(p,"chops_r",-2,1.6101F,-1.5F,-1.3417148811536328F,-2.9124867733390016F,-1.9441431977475077F);put(p,"chops_l",2,1.6101F,-1.2F,-1.3417148811536328F,2.9124867733390016F,1.9441431977475077F);put(p,"ear_l",s?2:1.8F,s?-1.7F:-2.5F,.7F,s?-1.1051215384117856F:-1.1021789132929232F,s?-.6157678680668675F:-1.6230567205873627F,s?.44547958360828466F:1.520239374352377F);put(p,"ear_l2",0,.6F,s?-1:-2,s?.06981317007977318F:.20943951023931956F,0,0);put(p,"ear_r",s?-2:-1.8F,s?-1.7F:-2.5F,.7F,s?-1.283881651059549F:-1.1021789132929232F,s?.9445233219602752F:1.6230584659166147F,s?-.7528076302749582F:-1.520239374352377F);put(p,"ear_r2",0,.6F,s?-1:-2,s?.06981317007977318F:.20943951023931956F,0,0);
+		put(p,"leg_r1",-3.3F,s?0:.4F,-2,s?-1.5566190172809469F:0,0,0);put(p,"leg_r2",0,s?2.5F:2.4F,1,0,0,0);put(p,"toe_r",0,s?-3.5F:2.4F,s?.6001F:1,0,0,0);
+		if(s){offset(p,"body",0,.6F,-1.5F);offset(p,"leg_l1",0,3,0);offset(p,"leg_l2",-.01F,3.5F,-.6F);offset(p,"toe_l",0,7.5F,-1.5F);offset(p,"lower_body",0,.8F,5);offset(p,"tail",0,0,3);offset(p,"tail2",0,1,2.5F);offset(p,"tail3",0,0,2);offset(p,"back_leg_r1",0,4,.5F);offset(p,"back_leg_r2",-.01F,3.5F,.7F);offset(p,"back_toe_r",-.01F,8.5F,-.4F);offset(p,"back_leg_l1",0,4,.5F);offset(p,"back_leg_l2",.01F,3.5F,.7F);offset(p,"back_toe_l",-.01F,8.5F,-.4F);offset(p,"neck1",0,2,-1);offset(p,"head_base",0,.49F,-1.8F);offset(p,"head_front",0,-.4F,-2.9F);offset(p,"nose",0,.6F,-.8F);offset(p,"upper_jaw_detail",0,1,-5);offset(p,"jaw",0,-.2F,-2.9F);offset(p,"ear_l",.5F,-.6F,-1.7F);offset(p,"ear_l2",0,-.6F,-1);offset(p,"ear_r",-.5F,-.6F,-1.7F);offset(p,"ear_r2",0,-.6F,-1);offset(p,"leg_r1",0,3,0);offset(p,"leg_r2",.12F,3.5F,-.6F);offset(p,"toe_r",.12F,7.5F,-1.5F);}return p;}
+	private static void put(Map<String,DogPartPose> p,String n,float x,float y,float z,float rx,float ry,float rz){p.put(n,new DogPartPose(x,y,z,rx,ry,rz));}private static void offset(Map<String,DogPartPose> p,String n,float x,float y,float z){DogPartPose q=p.get(n);p.put(n,new DogPartPose(q.px(),q.py(),q.pz(),q.rx(),q.ry(),q.rz(),x,y,z));}private static PartDefinition part(PartDefinition parent,String n,int u,int v,float x,float y,float z,int dx,int dy,int dz,float px,float py,float pz,float ox,float oy,float oz){PartDefinition outer=parent.addOrReplaceChild(n,CubeListBuilder.create(),PartPose.offset(px,py,pz));return outer.addOrReplaceChild(n+"_box",CubeListBuilder.create().texOffs(u,v).addBox(x,y,z,dx,dy,dz),PartPose.offset(ox,oy,oz));}
+}

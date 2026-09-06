@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    "i i",
+    "nin"
+  ],
+  "key": {
+    "i": { "item": "minecraft:iron_ingot" },
+    "n": { "item": "minecraft:iron_nugget" }
+  },
+  "result": { "id": "animania:pet_bowl", "count": 1 }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": {
+    "item": "animania:raw_horse"
+  },
+  "result": {
+    "id": "animania:cooked_horse"
+  },
+  "experience": 0.2,
+  "cookingtime": 100
+}

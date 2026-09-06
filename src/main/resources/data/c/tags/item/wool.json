@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:wool",
+    "animania:wool_dorset_natural",
+    "animania:wool_friesian_1",
+    "animania:wool_friesian_2",
+    "animania:wool_jacob",
+    "animania:wool_merino_natural",
+    "animania:wool_merino_brown",
+    "animania:wool_suffolk_natural"
+  ]
+}

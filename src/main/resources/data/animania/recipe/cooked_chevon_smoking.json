@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": {
+    "item": "animania:raw_chevon"
+  },
+  "result": {
+    "id": "animania:cooked_chevon"
+  },
+  "experience": 0.2,
+  "cookingtime": 100
+}

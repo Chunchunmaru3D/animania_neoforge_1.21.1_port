@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=north,part=main": { "model": "animania:block/block_trough" },
+    "facing=north,part=extension": { "model": "animania:block/block_trough" },
+    "facing=south,part=main": { "model": "animania:block/block_trough", "y": 180 },
+    "facing=south,part=extension": { "model": "animania:block/block_trough", "y": 180 },
+    "facing=east,part=main": { "model": "animania:block/block_trough", "y": 90 },
+    "facing=east,part=extension": { "model": "animania:block/block_trough", "y": 90 },
+    "facing=west,part=main": { "model": "animania:block/block_trough", "y": 270 },
+    "facing=west,part=extension": { "model": "animania:block/block_trough", "y": 270 }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    "isi",
+    "iii"
+  ],
+  "key": {
+    "s": { "item": "minecraft:sand" },
+    "i": { "item": "minecraft:iron_ingot" }
+  },
+  "result": { "id": "animania:litter_box", "count": 1 }
+}

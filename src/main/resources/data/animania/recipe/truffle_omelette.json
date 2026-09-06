@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    { "item": "animania:plain_omelette" },
+    { "item": "animania:truffle" }
+  ],
+  "result": { "id": "animania:truffle_omelette" }
+}

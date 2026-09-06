@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["lll", "iwi"],
+  "key": {
+    "l": { "item": "minecraft:leather" },
+    "w": { "tag": "c:wool" },
+    "i": { "item": "minecraft:iron_ingot" }
+  },
+  "result": { "id": "minecraft:saddle", "count": 1 }
+}

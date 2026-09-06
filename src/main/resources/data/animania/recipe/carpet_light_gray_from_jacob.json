@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:crafting_shapeless", "category": "misc",
+  "ingredients": [{ "item": "animania:wool_jacob" }, { "item": "animania:wool_jacob" }],
+  "result": { "id": "minecraft:light_gray_carpet", "count": 3 }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": {
+    "item": "animania:raw_prime_pork"
+  },
+  "result": {
+    "id": "animania:cooked_prime_pork"
+  },
+  "experience": 0.35,
+  "cookingtime": 600
+}

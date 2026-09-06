@@ -1,0 +1,160 @@
+{
+  "rules": [
+    {
+      "status": "changed",
+      "path": "models/*",
+      "classification": "modern_model_schema",
+      "reason": "The same model ID is retained, but its JSON was migrated from the 1.12 model format to the 1.21 model/item system."
+    },
+    {
+      "status": "changed",
+      "path": "blockstates/*",
+      "classification": "modern_blockstate_schema",
+      "reason": "The block ID is retained, but blockstate JSON was migrated for the modern block/model pipeline."
+    },
+    {
+      "status": "changed",
+      "path": "sounds.json",
+      "classification": "modern_sound_schema",
+      "reason": "Sound-event definitions were rewritten for the modern registry while individual OGG files are compared separately."
+    },
+    {
+      "status": "missing",
+      "path": "manual/*",
+      "classification": "legacy_manual_unported",
+      "reason": "The 1.12 built-in manual has no registered modern book item; a Patchouli resource exists separately but Patchouli is not a project dependency."
+    },
+    {
+      "status": "missing",
+      "path": "textures/animania_logo1.png",
+      "classification": "legacy_manual_unported",
+      "reason": "Used only by the 1.12 manual start page and mcmod.info; the manual is not currently registered in the port."
+    },
+    {
+      "status": "missing",
+      "path": "textures/gui/*",
+      "classification": "legacy_manual_unported",
+      "reason": "Used only by the 1.12 manual GUI, which has no registered modern book item."
+    },
+    {
+      "status": "missing",
+      "path": "textures/images/*",
+      "classification": "legacy_manual_unported",
+      "reason": "Used only by pages of the unported 1.12 built-in manual."
+    },
+    {
+      "status": "missing",
+      "path": "craftstudio/models/entity/model_ragdoll.csjsmodel",
+      "classification": "unused_legacy_craftstudio_asset",
+      "reason": "No 1.12 code or resource refers to this standalone CraftStudio model; the port does not copy unreferenced assets."
+    },
+    {
+      "status": "missing",
+      "path": "lang/*",
+      "classification": "legacy_translation_unported",
+      "reason": "Legacy .lang files are not loaded in 1.21. The port currently deliberately ships only en_us.json and ru_ru.json."
+    },
+    {
+      "status": "missing",
+      "path": "sounds/shears.ogg",
+      "classification": "intentional_unused_sound",
+      "reason": "The original asset has no live 1.12 call site, so registering it would invent a new mechanic."
+    },
+    {
+      "status": "missing",
+      "path": "sounds/zap.ogg",
+      "classification": "intentional_unused_sound",
+      "reason": "The original asset has no live 1.12 call site, so registering it would invent a new mechanic."
+    },
+    {
+      "status": "missing",
+      "path": "textures/fluids/*",
+      "classification": "modern_fluid_texture_relocated",
+      "reason": "The restored milk, honey and slop systems load these exact source assets from the modern textures/block path through NeoForge fluid client extensions."
+    },
+    {
+      "status": "missing",
+      "path": "blockstates/fluids.json",
+      "classification": "legacy_fluid_blockstate_schema",
+      "reason": "Fluid rendering is now registered by CommonFluids and AnimaniaClient; the 1.12 aggregate fluid blockstate schema is not consumed by the 1.21 pipeline."
+    },
+    {
+      "status": "missing",
+      "path": "textures/items/*",
+      "classification": "legacy_item_variant_needs_mapping",
+      "reason": "The 1.12 item texture has no byte-identical modern-path counterpart; it may be a retired breed-specific variant or require an explicit modern item mapping."
+    },
+    {
+      "status": "missing",
+      "path": "models/item/*",
+      "classification": "legacy_item_model_needs_mapping",
+      "reason": "The 1.12 item model has no direct modern counterpart; verify whether its item ID was intentionally collapsed or is still required."
+    },
+    {
+      "status": "missing",
+      "path": "models/block/*",
+      "classification": "legacy_block_model_needs_mapping",
+      "reason": "The 1.12 block model has no direct modern counterpart; verify its block ID and whether it is now BlockEntity-rendered."
+    },
+    {
+      "status": "missing",
+      "path": "textures/blocks/*",
+      "classification": "legacy_block_texture_needs_mapping",
+      "reason": "The texture has no byte-identical modern-path counterpart; it may belong to a retired cheese/milk block or need an explicit block mapping."
+    },
+    {
+      "status": "missing",
+      "path": "textures/entity/*",
+      "classification": "legacy_entity_texture_needs_mapping",
+      "reason": "The entity texture has no byte-identical modern counterpart. Verify the current renderer selector before adding it."
+    },
+    {
+      "status": "missing",
+      "path": "blockstates/*",
+      "classification": "legacy_block_id_needs_mapping",
+      "reason": "The 1.12 blockstate has no direct modern block ID. Verify whether the block was renamed, retired or still needs porting."
+    },
+    {
+      "status": "new",
+      "path": "patchouli_books/*",
+      "classification": "intentional_new_patchouli_resource",
+      "reason": "This is a modern Patchouli resource added by the port; it remains unreachable until the optional Patchouli integration is approved."
+    },
+    {
+      "status": "new",
+      "path": "lang/*",
+      "classification": "modern_locale_format",
+      "reason": "Modern JSON localization replaces the 1.12 .lang format."
+    },
+    {
+      "status": "new",
+      "path": "models/*",
+      "classification": "modern_model_schema",
+      "reason": "Modern model JSON required by the 1.21 asset pipeline; inspect the matching ID when a legacy model is absent."
+    },
+    {
+      "status": "new",
+      "path": "blockstates/*",
+      "classification": "modern_blockstate_schema",
+      "reason": "Modern blockstate JSON for a port-specific or renamed block ID."
+    },
+    {
+      "status": "new",
+      "path": "textures/block/*",
+      "classification": "modern_block_texture",
+      "reason": "Modern singular block texture path, including BlockEntity particle assets introduced by the port."
+    },
+    {
+      "status": "new",
+      "path": "textures/item/*",
+      "classification": "modern_item_texture",
+      "reason": "Modern singular item texture path for a current item ID."
+    },
+    {
+      "status": "new",
+      "path": "textures/entity/*",
+      "classification": "modern_entity_texture_needs_mapping",
+      "reason": "Modern entity texture path with no byte-identical 1.12 asset; verify renderer use before treating it as a replacement."
+    }
+  ]
+}

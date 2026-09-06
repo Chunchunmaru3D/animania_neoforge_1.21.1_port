@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:crafting_shapeless", "category": "misc",
+  "ingredients": [{ "item": "animania:wool_friesian_2" }, { "item": "animania:wool_friesian_2" }],
+  "result": { "id": "minecraft:brown_carpet", "count": 3 }
+}

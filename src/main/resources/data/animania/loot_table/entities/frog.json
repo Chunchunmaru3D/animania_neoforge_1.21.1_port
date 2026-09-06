@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:entity",
+  "pools": [{ "rolls": 1, "entries": [{ "type": "minecraft:item", "name": "animania:raw_frog_legs", "functions": [
+    { "function": "minecraft:furnace_smelt", "conditions": [{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "flags": { "is_on_fire": true } } }] },
+    { "function": "minecraft:enchanted_count_increase", "enchantment": "minecraft:looting", "count": { "type": "minecraft:uniform", "min": 0, "max": 0.3 } }
+  ] }] }]
+}

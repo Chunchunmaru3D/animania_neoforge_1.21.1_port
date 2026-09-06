@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "animania:block/dog_house" },
+    "facing=south": { "model": "animania:block/dog_house", "y": 180 },
+    "facing=east": { "model": "animania:block/dog_house", "y": 90 },
+    "facing=west": { "model": "animania:block/dog_house", "y": 270 }
+  }
+}

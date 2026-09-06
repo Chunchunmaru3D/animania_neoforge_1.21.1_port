@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "animania:honey_jar" }
+  ],
+  "result": { "id": "minecraft:sugar", "count": 8 }
+}

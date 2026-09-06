@@ -1,0 +1,15 @@
+{
+	"name": "patchouli.animania.entry.pullables.name",
+	"icon": "animania:item_cart",
+	"category": "animania:farm",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "patchouli.animania.entry.pullables.page1"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "patchouli.animania.entry.pullables.page2"
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "sww",
+    "r w",
+    "www"
+  ],
+  "key": {
+    "w": { "tag": "minecraft:planks" },
+    "s": { "item": "minecraft:string" },
+    "r": { "item": "minecraft:red_wool" }
+  },
+  "result": { "id": "animania:cat_tower", "count": 1 }
+}

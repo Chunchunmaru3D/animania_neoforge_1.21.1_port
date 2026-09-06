@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_snowy",
+  "spawners": [
+    {
+      "type": "animania:dog_female_wolf",
+      "weight": 5,
+      "minCount": 2,
+      "maxCount": 2
+    }
+  ]
+}

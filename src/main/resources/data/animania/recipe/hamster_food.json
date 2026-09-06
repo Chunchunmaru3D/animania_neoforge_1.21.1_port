@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "tag": "minecraft:villager_plantable_seeds" },
+    { "tag": "minecraft:villager_plantable_seeds" },
+    { "tag": "minecraft:villager_plantable_seeds" }
+  ],
+  "result": {
+    "id": "animania:hamster_food",
+    "count": 3
+  }
+}

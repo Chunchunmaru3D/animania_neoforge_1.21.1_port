@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    { "item": "animania:plain_omelette" },
+    { "item": "animania:cooked_prime_bacon" }
+  ],
+  "result": { "id": "animania:bacon_omelette" }
+}

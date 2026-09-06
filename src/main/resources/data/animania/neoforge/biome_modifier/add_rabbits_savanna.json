@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_savanna",
+  "spawners": [
+    {
+      "type": "animania:rabbit_doe_chinchilla",
+      "weight": 8,
+      "minCount": 2,
+      "maxCount": 2
+    },
+    {
+      "type": "animania:rabbit_doe_rex",
+      "weight": 8,
+      "minCount": 2,
+      "maxCount": 2
+    }
+  ]
+}

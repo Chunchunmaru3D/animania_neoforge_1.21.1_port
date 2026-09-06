@@ -1,0 +1,1 @@
+{ "parent": "minecraft:item/generated", "textures": { "layer0": "animania:item/friesian_cheese_wedge" } }

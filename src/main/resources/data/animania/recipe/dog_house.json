@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " w ",
+    "rrr",
+    "r r"
+  ],
+  "key": {
+    "r": { "item": "minecraft:red_terracotta" },
+    "w": { "item": "minecraft:white_terracotta" }
+  },
+  "result": { "id": "animania:dog_house", "count": 1 }
+}

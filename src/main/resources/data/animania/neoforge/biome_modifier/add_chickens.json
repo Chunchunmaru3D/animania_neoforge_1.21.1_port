@@ -1,0 +1,66 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_plains",
+  "spawners": [
+    {
+      "type": "animania:hen_leghorn",
+      "weight": 8,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:rooster_leghorn",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "animania:hen_orpington",
+      "weight": 8,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:rooster_orpington",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "animania:hen_plymouth_rock",
+      "weight": 8,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:rooster_plymouth_rock",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "animania:hen_rhode_island_red",
+      "weight": 8,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:rooster_rhode_island_red",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "animania:hen_wyandotte",
+      "weight": 8,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:rooster_wyandotte",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

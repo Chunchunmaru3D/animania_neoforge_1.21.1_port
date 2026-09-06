@@ -1,0 +1,90 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#c:is_mountain",
+  "spawners": [
+    {
+      "type": "animania:doe_alpine",
+      "weight": 6,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:buck_alpine",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "animania:doe_angora",
+      "weight": 6,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:buck_angora",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "animania:doe_fainting",
+      "weight": 6,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:buck_fainting",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "animania:doe_kiko",
+      "weight": 6,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:buck_kiko",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "animania:doe_kinder",
+      "weight": 6,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:buck_kinder",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "animania:doe_nigerian_dwarf",
+      "weight": 6,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:buck_nigerian_dwarf",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "animania:doe_pygmy",
+      "weight": 6,
+      "minCount": 2,
+      "maxCount": 3
+    },
+    {
+      "type": "animania:buck_pygmy",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": {
+    "item": "animania:raw_prime_beef"
+  },
+  "result": {
+    "id": "animania:cooked_prime_beef"
+  },
+  "experience": 0.35,
+  "cookingtime": 600
+}

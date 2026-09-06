@@ -1,0 +1,15 @@
+{
+	"name": "patchouli.animania.entry.rodents.name",
+	"icon": "animania:ferret_grey_spawn_egg",
+	"category": "animania:extra",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "patchouli.animania.entry.rodents.page1"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "patchouli.animania.entry.rodents.page2"
+		}
+	]
+}

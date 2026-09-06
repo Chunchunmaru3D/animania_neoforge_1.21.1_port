@@ -1,0 +1,15 @@
+{
+	"name": "patchouli.animania.entry.care_blocks.name",
+	"icon": "animania:block_trough",
+	"category": "animania:getting_started",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "patchouli.animania.entry.care_blocks.page1"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "patchouli.animania.entry.care_blocks.page2"
+		}
+	]
+}

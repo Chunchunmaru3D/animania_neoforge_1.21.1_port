@@ -1,0 +1,11 @@
+{
+	"name": "patchouli.animania.entry.cats.name",
+	"icon": "animania:cat_tom_tabby_spawn_egg",
+	"category": "animania:catsdogs",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "patchouli.animania.entry.cats.page1"
+		}
+	]
+}

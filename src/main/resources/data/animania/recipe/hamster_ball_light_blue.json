@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["xxx", "xdx", "xxx"],
+  "key": { "x": { "item": "minecraft:glass_pane" }, "d": { "item": "minecraft:light_blue_dye" } },
+  "result": {
+    "id": "animania:hamster_ball_colored",
+    "components": { "minecraft:custom_data": { "BallColor": 12 } }
+  }
+}

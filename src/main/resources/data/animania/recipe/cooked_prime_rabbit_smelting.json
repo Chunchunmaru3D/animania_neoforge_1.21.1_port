@@ -1,0 +1,1 @@
+{ "type": "minecraft:smelting", "category": "food", "ingredient": { "item": "animania:raw_prime_rabbit" }, "result": { "id": "animania:cooked_prime_rabbit" }, "experience": 0.3, "cookingtime": 200 }

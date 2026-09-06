@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#animania:hive_biomes",
+  "features": "animania:wild_hive",
+  "step": "vegetal_decoration"
+}

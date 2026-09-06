@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "animania:friesian_cheese_wedge",
+    "animania:holstein_cheese_wedge",
+    "animania:jersey_cheese_wedge",
+    "animania:sheep_cheese_wedge",
+    "animania:goat_cheese_wedge"
+  ]
+}
